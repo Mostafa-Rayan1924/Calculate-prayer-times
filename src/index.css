@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  overflow-x: hidden;
+}
+body {
+  background-color: #222;
+  font-family: "El Messiri", sans-serif;
+  color: white;
+}
