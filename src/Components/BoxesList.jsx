@@ -10,10 +10,9 @@ const BoxesList = ({ boxes }) => {
                 className="h-[150px] w-full object-cover"
                 src={item.img}
               />
-
               <div className="p-2 bg-[#333]">
                 <h3 className=" text-lg  mb-4 ">{item.name}</h3>
-                <h2 className="text-6xl font-bold ">{item.time}</h2>
+                <h2 className="text-5xl sm:text-6xl font-bold ">{item.time}</h2>
               </div>
             </article>
           );
